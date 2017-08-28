@@ -17,4 +17,4 @@ RUN apk add --no-cache curl \
                        libxml2-dev \
                        libxslt-dev \
                        libffi-dev
-RUN gem install bundler ffi nokogiri eventmachine jekyll json --no-ri --no-rdoc
+RUN gem install bundler --no-ri --no-rdoc
