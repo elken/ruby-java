@@ -1,5 +1,5 @@
 FROM anapsix/alpine-java
-RUN apk add --no-cache curl
+RUN apk add --no-cache curl tar
 RUN \curl -L https://get.rvm.io | bash -s stable
 RUN /bin/bash -l -c "rvm requirements"
 RUN /bin/bash -l -c "rvm install latest"
